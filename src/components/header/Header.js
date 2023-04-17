@@ -9,7 +9,7 @@ function Header() {
           <h1>
             <a href="#home">
               <img
-                className="imglogo"
+                className="img-logo"
                 src={`${process.env.PUBLIC_URL}/assets/logo.jpg`}
                 alt="logo"
               />
@@ -29,7 +29,14 @@ function Header() {
           </form>
         </div>
         <div className="cart">
-          <a href="#cart">Giỏ hàng</a>
+          <a href="#cart">
+            <img
+              className="img-cart"
+              src={`${process.env.PUBLIC_URL}/assets/cart.png`}
+              alt="Giỏ hàng"
+            />
+            <span>Giỏ hàng</span>
+          </a>
         </div>
       </div>
     </div>
