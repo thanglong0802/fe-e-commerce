@@ -10,7 +10,7 @@ function Header() {
             <a href="#home">
               <img
                 className="img-logo"
-                src={`${process.env.PUBLIC_URL}/assets/logo.jpg`}
+                src={`${process.env.PUBLIC_URL}/assets/logo-new.jpg`}
                 alt="logo"
               />
             </a>
